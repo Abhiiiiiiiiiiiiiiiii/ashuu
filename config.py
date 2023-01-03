@@ -1,4 +1,4 @@
-Èfrom os import getenv
+from os import getenv
 
 API_ID = int(getenv("API_ID", "")) #optional
 API_HASH = getenv("API_HASH", "") #optional
